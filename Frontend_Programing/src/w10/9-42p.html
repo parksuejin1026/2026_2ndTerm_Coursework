@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>이벤트 전파 제어</title>
+  <style>
+#parent { width: 350px; padding: 30px; background-color: #e7f0ff; border: 2px solid royalblue; }
+#child { padding: 12px 20px; cursor: pointer; }
+</style>
+  <script src="./9-42p.js" defer></script>
+</head>
+<body>
+  <h2>stopPropagation() 실습</h2>
+  <label><input type="checkbox" id="stopCheck" /> 이벤트 전파 중단</label>
+  <div id="parent">
+    <p>부모 요소</p>
+    <button id="child">자식 버튼 클릭</button>
+  </div>
+  <h3>이벤트 실행 결과</h3>
+  <ol id="result"></ol>
+</body>
+</html>

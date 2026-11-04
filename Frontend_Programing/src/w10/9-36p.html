@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>이벤트 전파 실습</title>
+  <style>
+#parent { width: 350px; padding: 30px; border: 3px solid blue; background-color: #eef4ff; }
+#child { padding: 15px 30px; cursor: pointer; }
+</style>
+  <script src="./9-36p.js" defer></script>
+</head>
+<body>
+  <h2>이벤트 전파 실습</h2>
+  <div id="parent">
+    부모 요소 (div)
+    <p><button id="child">자식 버튼 클릭</button></p>
+  </div>
+  <h3>이벤트 실행 순서</h3>
+  <ol id="result"></ol>
+</body>
+</html>
