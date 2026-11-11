@@ -1,11 +1,25 @@
-{
-    "code-runner.executorMap" : {
-        "javascript": "node",
-        "typescript": "npx.cmd tsx"
-    },
 
-    "code-runner.runInTerminal": true,
-    "code-runner.saveFileBeforeRun": true,
-    "code-runner.ignoreSelection": true,
-    "code-runner.clearPreviousOutput": true
+{
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "typescript": "npx.cmd tsx"
+  },
+
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.clearPreviousOutput": true,
+
+  "npm.scriptExplorerAction": "open",
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
 }
