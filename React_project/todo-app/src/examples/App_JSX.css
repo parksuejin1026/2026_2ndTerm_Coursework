@@ -1,0 +1,26 @@
+.todo-container {
+  width: 400px;
+  max-width: 100%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: aliceblue;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  color: black;
+  box-sizing: border-box;
+}
+
+.todo-container ul {
+  padding-left: 25px;
+}
+
+.todo-container li {
+  padding: 6px 0;
+}
+
+.todo-container input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 8px;
+}
