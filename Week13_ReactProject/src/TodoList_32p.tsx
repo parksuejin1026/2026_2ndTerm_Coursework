@@ -7,7 +7,7 @@ type Todo = {
   isChecked: boolean;
 };
 
-const TodoList_31p: React.FC = () => {
+const TodoList_32p: React.FC = () => {
   const [todos, setTodos] = useState<Todo[]>([
     { id: 1, text: "커피마시기", isChecked: false },
     { id: 2, text: "공부하기", isChecked: false },
@@ -53,4 +53,4 @@ const TodoList_31p: React.FC = () => {
   );
 };
 
-export default TodoList_31p;
+export default TodoList_32p;
