@@ -1,0 +1,9 @@
+.container {
+  background: aliceblue;
+  color: rgb(4, 4, 48);
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  max-width: 800px;
+}
